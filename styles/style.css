@@ -1,0 +1,160 @@
+/**  ========================================================================== 
+
+This is where your custom styles begin. 
+
+==========================================================================  */
+
+body {
+  background-color: #fcf7f0;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: light;
+  font-size: 230pt;
+  line-height: 320px;
+  letter-spacing: -10px;
+  position: fixed;
+  right: 100px;
+  top: 70px;
+  text-align: right;
+  z-index: -1;
+}
+
+.contacts {
+  font-family: prestige-elite-std, monospace;
+  font-size: 16pt;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  border-top: 1px solid black;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+.test {
+  text-align: center;
+  word-spacing: 300px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: black;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+a:active {
+  color: lime;
+}
+
+#insta {
+  left: 100px;
+}
+
+#linkedin {
+  right: 100px;
+}
+
+.topblock {
+  font-family: prestige-elite-std, monospace;
+  font-size: 20pt;
+  font-weight: 700;
+  font-style: normal;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.bottomblock {
+  font-family: prestige-elite-std, monospace;
+  font-size: 16pt;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+.picturelink {
+  font-family: prestige-elite-std, monospace;
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+.firstwindow {
+  height: 324px;
+  width: 344px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  left: 200px;
+  top: 575px;
+  box-shadow: 10px 10px lime;
+}
+
+.firstwindow:hover {
+  box-shadow: 10px 10px 20px lime;
+}
+
+.secondwindow {
+  background-blend-mode: exclusion;
+  height: 476px;
+  width: 342px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  right: 100px;
+  top: 1200px;
+  box-shadow: 10px 10px lime;
+}
+
+.secondwindow:hover {
+  box-shadow: 10px 10px 20px lime;
+}
+
+.thirdwindow {
+  height: 708px;
+  width: 466px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  left: 100px;
+  top: 1800px;
+  margin-bottom: 400px;
+  box-shadow: 10px 10px lime;
+}
+
+.thirdwindow:hover {
+  mix-blend-mode: unset;
+
+  box-shadow: 10px 10px 20px lime;
+}
+
+.bookmark {
+  height: 100px;
+  width: 50px;
+  border-bottom: 3px dashed black;
+  border-left: 3px dashed black;
+  border-right: 3px dashed black;
+  margin-left: 200px;
+  background: linear-gradient(180deg, #02ff00, #ff00f5);
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}

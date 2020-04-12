@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    height: auto;
+    perspective: 900px;
+
+    background-color: black;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+img{
+    width: 400px;
+    height: auto;
+    
+}
+
+.frog {
+
+    width: auto;
+
+}

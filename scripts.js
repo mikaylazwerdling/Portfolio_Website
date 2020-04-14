@@ -13,10 +13,10 @@ document.addEventListener("mousemove", function (event) {
     const target = document.querySelector(".firstwindow")
     const targetCoords = target.getBoundingClientRect()
 
-    const targetX = targetCoords.left + (target.offsetWidth / 4)
+    const targetX = targetCoords.left + (target.offsetWidth / 2)
     const targetY = targetCoords.top + (target.offsetHeight / 2)
 
-    const angleX = (targetY - y) / 25
+    const angleX = (targetY - y) / 15
     const angleY = (targetX - x) / -25
 
     target.style.transform = "rotateX(" + angleX + "deg) rotateY(" + angleY + "deg)"
@@ -30,11 +30,11 @@ document.addEventListener("mousemove", function (event) {
     const target = document.querySelector(".secondwindow")
     const targetCoords = target.getBoundingClientRect()
 
-    const targetX = targetCoords.left + (target.offsetWidth / 4)
+    const targetX = targetCoords.left + (target.offsetWidth / 2)
     const targetY = targetCoords.top + (target.offsetHeight / 2)
 
-    const angleX = (targetY - y) / -25
-    const angleY = (targetX - x) / 25
+    const angleX = (targetY - y) / 15
+    const angleY = (targetX - x) / -25
 
     target.style.transform = "rotateX(" + angleX + "deg) rotateY(" + angleY + "deg)"
 })

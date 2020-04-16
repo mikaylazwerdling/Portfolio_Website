@@ -5,10 +5,9 @@ This is where your custom styles begin.
 ==========================================================================  */
 
 body {
-    background: rgb(98,98,98);
-    background: linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(145,145,145,1) 33%, rgba(145,145,145,1) 66%, rgba(98,98,98,1) 100%);
     width: 100%;
     height: auto;
+    background-color: #919191;
   }
   
 .home {
@@ -49,7 +48,6 @@ body {
   
   a:link {
     color: black;
-    filter: ;
   }
   
   a:visited {
@@ -67,18 +65,19 @@ body {
   }
   
   .greybackground{
+
     width: 65%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-wrap: column;
   }
   
   .column{
-    padding-top: 60px;
+    margin-top: 60px;
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-    margin: 50px;
+    margin: 60px;
     display: flex;
     flex-direction: column;
     overflow: visible;

@@ -12,7 +12,7 @@ body {
   /**outline: 2px solid black;
   outline-offset: -30px; **/
   width: 100%;
-  height: 150%;
+  height: 1300px;
   z-index: -2; 
 }
 
@@ -217,7 +217,6 @@ img{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    top: 670px;
   }
 
   .column{
@@ -247,17 +246,17 @@ img{
 
 
   .home{
-  height: 120%;
-
+  height: 1000px;
+    width: 100%;
   }
 
 
   .title{
-    font-size: 120pt;
+    font-size: 40vw;
     margin: 30px;
     top: 110px;
     right: -90px;
-    line-height: 130pt;
+    line-height: 120pt;
     transform: rotate(-90deg);
   }
 
@@ -272,8 +271,19 @@ img{
     animation: rotation 8s infinite linear;
   }
 
-  .contacts{
+  .contacts {
+
     font-size: 10pt;
+
+    padding: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-top: 2px solid black;
+
+    height: 30px;
+    text-align: center;
+    background-color: #9191913a;
+    z-index: 300;
   }
 
 }

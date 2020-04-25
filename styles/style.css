@@ -185,6 +185,10 @@ img{
   animation: rotation 8s infinite linear;
 }
 
+.circle_div:hover{
+  filter: invert(100%);
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);

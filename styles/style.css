@@ -217,6 +217,7 @@ img{
     flex-direction: column;
     align-items: center;
     align-content: center;
+    top: 670px;
   }
 
   .column{
@@ -236,18 +237,27 @@ img{
     width: 300px;
   }
 
+  .firstwindow{
+    left: 40px;
+  }
+
+  .secondwindow{
+    right:20px;
+  }
+
 
   .home{
   height: 120%;
+
   }
 
 
   .title{
-    font-size: 170pt;
+    font-size: 120pt;
     margin: 30px;
-    top: 200px;
-    right: -110px;
-    line-height: 180pt;
+    top: 110px;
+    right: -90px;
+    line-height: 130pt;
     transform: rotate(-90deg);
   }
 
@@ -262,7 +272,9 @@ img{
     animation: rotation 8s infinite linear;
   }
 
-
+  .contacts{
+    font-size: 10pt;
+  }
 
 }
 

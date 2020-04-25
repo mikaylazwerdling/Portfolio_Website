@@ -262,11 +262,11 @@ img{
 
   .circle_div{
     top: -10px;
-    right: 30px;
+    right: 60px;
   }
   
   .circle{
-    width: 160px;
+    width: 120px;
     height: auto;
     animation: rotation 8s infinite linear;
   }

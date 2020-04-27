@@ -6,6 +6,7 @@ This is where your custom styles begin.
 
 body {
   background-color: #e9e8e5;
+  -webkit-transform-style: preserve-3d; 
 }
 
  .home {

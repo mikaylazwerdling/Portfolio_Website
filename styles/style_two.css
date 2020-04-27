@@ -133,17 +133,21 @@ body {
 @media only screen and (max-device-width: 800px) {
   .home{
     flex-direction: column;
+    height: auto;
   }
 
   .greybackground{
     width: 100%;
-    height: 140%;
+    height: 60%;
+    bottom: 0px;
   }
 
   .column{
     margin: 20px;
     margin-top: 10px;
-
+    margin-bottom: 20vh;
+    height: auto;
+    
   }
 
   .text_column{
@@ -157,13 +161,16 @@ body {
 
   .writing{
     margin-left: 20px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 90%;
-    height: auto;
     font-family: 'Space Mono', monospace;
     font-size: 12pt;
   }
 
+  img{
+    display: inline-block;
+  }
 
 
 

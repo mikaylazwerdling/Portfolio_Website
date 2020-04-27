@@ -143,26 +143,25 @@ body {
   .column{
     margin: 20px;
     margin-top: 10px;
-    margin-bottom: 400px;
 
   }
 
   .text_column{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     height: auto;
     bottom: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
 
   .writing{
-    margin: 10px;
-    margin-right: 20px;
     margin-left: 20px;
-    width: 100%;
-    overflow-wrap: break-word;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
     font-family: 'Space Mono', monospace;
     font-size: 12pt;
-
   }
 
 

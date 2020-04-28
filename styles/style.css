@@ -34,8 +34,8 @@ a.homepage:visited{
 .title {
   font-family: "Cormorant Infant", serif;
   font-weight: light;
-  font-size: 260pt;
-  line-height: 320px;
+  font-size: 21vw;
+  line-height: 20vw;
   letter-spacing: -10px;
   position: fixed;
   right: 100px;
@@ -57,7 +57,7 @@ a.homepage:visited{
   height: 20px;
   bottom: 0px;
   position: fixed;
-  align-self: right;
+
   background-color: #9191913a;
   z-index: 300;
 }
@@ -95,6 +95,7 @@ a:active {
   font-style: normal;
   letter-spacing: -0.5pt;
   padding: 10px;
+  padding-left: 10px;
   border-bottom: 1px solid black;
 
 }
@@ -105,7 +106,8 @@ a:active {
   font-weight: 400;
   font-style: normal;
   letter-spacing: -0.5pt;
-  padding: 15px;
+  padding: 10px;
+  padding-left: 10px;
 }
 
 .firstwindow {
@@ -284,19 +286,21 @@ img{
   }
 
   .contacts {
-
     font-size: 10pt;
-
-    padding: 10px;
-    padding-left:10px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
     padding-right: 10px;
     top: 0px;
     border-bottom: 1px solid black;
     border-top: none;
-    height: 30px;
-    text-align: center;
+    height: 36px;
     background-color: #9191913a;
     z-index: 300;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 13pt;
+
   }
 
 }

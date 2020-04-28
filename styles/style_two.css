@@ -78,17 +78,17 @@ body {
     margin-top: 60px;
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin: 60px;
     display: flex;
     flex-direction: column;
     overflow: visible;
-  
   }
+
   
   img{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 100%;
     height: auto;
   }
@@ -132,6 +132,16 @@ body {
 }
   
 
+#previous, #next{
+  font-size: 40pt;
+  color: #919191;
+  text-decoration: none;
+}
+
+#previous:hover, #next:hover{ 
+  color: white;
+}
+
 
 @media only screen and (max-device-width: 800px) {
   .home{
@@ -172,19 +182,21 @@ body {
   }
 
   .contacts {
-
     font-size: 10pt;
-
-    padding: 10px;
-    padding-left:10px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
     padding-right: 10px;
-    border-top: none;
     top: 0px;
     border-bottom: 1px solid black;
-    height: 30px;
-    text-align: center;
-    background-color: #9191913a;
+    border-top: none;
+    height: 36px;
+    background-color: #7c7c7c46;
     z-index: 300;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 13pt;
+
   }
 
   video{

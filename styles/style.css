@@ -266,7 +266,7 @@ img{
   .title{
     font-size: 40vw;
     margin: 30px;
-    top: 160px;
+    top: 170px;
     right: -90px;
     line-height: 120pt;
     transform: rotate(-90deg);
@@ -290,9 +290,9 @@ img{
     padding: 10px;
     padding-left:10px;
     padding-right: 10px;
-    border-top: 2px solid black;
     top: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+    border-top: none;
     height: 30px;
     text-align: center;
     background-color: #9191913a;

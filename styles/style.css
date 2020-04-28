@@ -5,17 +5,19 @@ This is where your custom styles begin.
 ==========================================================================  */
 
 body {
+  width: 100%;
+  height: auto;
   background-color: #e9e8e5;
-  -webkit-transform-style: preserve-3d; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
  .home {
   /**outline: 2px solid black;
   outline-offset: -30px; **/
   width: 100%;
-  height: 1300px;
-  display: flex;
-  flex-wrap: wrap;
+  height: 1200px;
   z-index: -2;
 }
 
@@ -94,6 +96,7 @@ a:active {
   letter-spacing: -0.5pt;
   padding: 10px;
   border-bottom: 1px solid black;
+
 }
 
 .bottomblock {
@@ -116,7 +119,7 @@ a:active {
   box-shadow: 15px 15px lime;
   perspective: 700;
   padding-bottom: 10px;
-  z-index: 10;
+  z-index: 300;
 }
 
 .firstwindow:hover {
@@ -135,7 +138,7 @@ a:active {
   right: 20%;
   top: 700px;
   box-shadow: 15px 15px lime;
-  z-index: 10;
+  z-index: 300;
 }
 
 .secondwindow:hover {
@@ -235,21 +238,27 @@ img{
     font-size: 14pt;
   }
 
-  .firstwindow,.secondwindow{
+  .firstwindow{
     width: 300px;
   }
 
+  .secondwindow{
+    width: 250px;
+  }
+
   .firstwindow{
-    left: 40px;
+    left: 30px;
+    top: 150px;
   }
 
   .secondwindow{
-    left: 40px;
+    left: 30px;
+    top: 500px;
   }
 
 
   .home{
-    height: 1000px;
+    height: 800px;
     width: 100%;
   }
 
@@ -257,15 +266,15 @@ img{
   .title{
     font-size: 40vw;
     margin: 30px;
-    top: 110px;
+    top: 160px;
     right: -90px;
     line-height: 120pt;
     transform: rotate(-90deg);
   }
 
   .circle_div{
-    top: -10px;
-    right: 60px;
+    top: 2%;
+    left: 2%;
   }
   
   .circle{
@@ -282,7 +291,8 @@ img{
     padding-left:10px;
     padding-right: 10px;
     border-top: 2px solid black;
-
+    top: 0px;
+    border-bottom: 2px solid black;
     height: 30px;
     text-align: center;
     background-color: #9191913a;

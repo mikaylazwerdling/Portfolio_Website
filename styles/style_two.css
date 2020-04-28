@@ -8,6 +8,9 @@ body {
     width: 100%;
     height: auto;
     background-color: #919191;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
   }
   
 .home {
@@ -144,7 +147,7 @@ body {
 
   .column{
     margin: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20vh;
     height: auto;
     
@@ -168,9 +171,27 @@ body {
     font-size: 12pt;
   }
 
-  img{
-    display: inline-block;
+  .contacts {
+
+    font-size: 10pt;
+
+    padding: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-top: 2px solid black;
+    top: 0px;
+    border-bottom: 2px solid black;
+    height: 30px;
+    text-align: center;
+    background-color: #9191913a;
+    z-index: 300;
   }
+
+  video{
+    margin-top: 20px;
+  }
+
+
 
 
 

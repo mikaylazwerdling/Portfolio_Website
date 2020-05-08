@@ -201,7 +201,7 @@ img{
 }
 
 .circle{
-  width: 150px;
+  width: 160px;
   height: auto;
   animation: rotation 8s infinite linear;
 }

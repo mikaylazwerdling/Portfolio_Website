@@ -36,14 +36,6 @@ body {
     bottom: 0px;
     position: fixed;
     z-index: 100;
-
-  }
-  
-  a:link{
-    color: black;
-  }
-  
-  .test {
     width: 100%;
     height: auto;
     word-spacing: 30px;
@@ -53,6 +45,10 @@ body {
     font-style: normal;
     color: black;
     margin: 0 auto;
+  }
+
+  a:link{
+    color: black;
   }
   
   a:link {
@@ -160,7 +156,13 @@ body {
 }
 
 
+
+
 @media only screen and (max-device-width: 800px) {
+  .contacts{
+    display: none;
+  }
+
   .home{
     flex-direction: column;
     height: auto;
@@ -174,8 +176,8 @@ body {
 
   .column{
     margin: 20px;
-    margin-top: 50px;
-    margin-bottom: 20vh;
+    margin-top: 0px;
+    margin-bottom: 10vh;
     height: auto;
     
   }
@@ -187,6 +189,7 @@ body {
     bottom: 0px;
     padding-left: 10px;
     padding-bottom: 10px;
+
   }
 
   .writing{
@@ -196,7 +199,10 @@ body {
     width: 90%;
     font-family: 'Space Mono', monospace;
     font-size: 12pt;
+    height: auto;
+    bottom: 0;
   }
+
 
   .contacts {
     font-size: 10pt;
@@ -221,6 +227,9 @@ body {
   }
 
 
+  .hide{
+    display: none;
+  }
 
 
 

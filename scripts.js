@@ -48,9 +48,4 @@ $(".writing").click(function () {
   $(".extra").fadeToggle(".hide")
   $(".extra").fade(".show")
 })
-
-
-
-
-
 }

@@ -160,6 +160,9 @@ body {
  
 
 @media only screen and (max-device-width: 800px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+}
   .contacts{
     display: none;
   }

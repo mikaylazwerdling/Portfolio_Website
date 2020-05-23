@@ -45,8 +45,12 @@ document.addEventListener("mousemove", function (event) {
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
 // display hidden text
 $(".writing").click(function () {
-  $(".extra").fadeToggle(".hide");
+  $(".extra").fadeToggle(".hide")
+  $(".extra").fade(".show")
 })
+
+
+
+
+
 }
-
-

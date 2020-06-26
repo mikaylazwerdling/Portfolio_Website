@@ -11,7 +11,7 @@ This is where your custom styles begin.
 .page {
   width: 100%;
   height: auto;
-  background-color: #e9e8e5;
+  background-color: #ebe9e4;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
@@ -136,7 +136,7 @@ a:active {
 
 .firstwindow:hover {
   box-shadow: 15px 15px magenta;
-  transform: scale(1.05);
+  transition-duration: 0.2s;
 
 }
 
@@ -155,7 +155,8 @@ a:active {
 
 .secondwindow:hover {
   box-shadow: 15px 15px magenta;
-  transform: scale(1.05);
+
+  transition-duration: 0.2s;
 }
 
 
@@ -163,7 +164,7 @@ a:active {
   display: flex;
   flex-wrap: column;
   padding: 20px;
-  background-color: #919191;
+  background-color: #adadad;
   z-index: -10;
 }
 

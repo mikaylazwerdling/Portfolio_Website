@@ -8,6 +8,16 @@ if (navigator.userAgent.match(/Mobile/)) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 document.addEventListener("mousemove", function (event) {
   const x = event.pageX;
   const y = event.pageY;
@@ -49,3 +59,7 @@ $(".writing").click(function () {
   $(".extra").fade(".show")
 })
 }
+
+
+
+

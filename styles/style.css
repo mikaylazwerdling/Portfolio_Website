@@ -188,6 +188,11 @@ img{
   z-index: 10;
 }
 
+img:hover{
+  filter: blur(3px) saturate(130%);
+  transition-duration: 0.5s;
+}
+
 
 .circle_div{
   position: fixed;
@@ -235,6 +240,8 @@ section {
   transform: translate(0, 20px); 
   transition: all 1s;
   }
+
+
   
 section.visible { 
   opacity: 1;
